@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page Uno</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="page1">
+
+  <h3>Ionic Menu Starter</h3>
+
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p>
+  <h1>SHA-512 Hash</h1>
+ 
+<p>String: This is a test</p>
+<p>HEX: {{hash}}</p>
+
+
+<h1>SHA-1 HMAC</h1>
+ 
+<p>String: This is a test</p>
+<p>HEX: {{hmac}}</p>
+
+<h1>SHA-1 HMAC</h1>
+<button (click)="getOTPCode(JBSWY3DPEHPK3PXP)">CLick me</button>
+
+ 
+<p>String: This is a test</p>
+<p>HEX: {{totpCode}}</p>
+
+  <button secondary menuToggle>Toggle Menu</button>
+
+</ion-content>
